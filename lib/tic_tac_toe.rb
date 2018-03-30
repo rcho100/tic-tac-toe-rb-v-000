@@ -37,7 +37,7 @@ def turn(board)
   puts "Please enter 1-9 to make your move."
   user_input = gets.chomp
   position = input_to_index(user_input)
-  player_token = "X"
+  player_token = current_player(board)
   if valid_move?(board, position)
     move(board, position, player_token)
     display_board(board)
