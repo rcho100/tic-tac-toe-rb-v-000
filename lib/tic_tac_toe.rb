@@ -98,4 +98,5 @@ end
 
 def play(board)
   turn(board)
+  over?(board)
 end
