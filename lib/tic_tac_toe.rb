@@ -100,7 +100,7 @@ def play(board)
   until over?(board)
     turn(board)
   end
-  if won?
+  if won?(board)
     puts Congratulations, !current_player(board)
   end
 end
