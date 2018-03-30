@@ -102,5 +102,5 @@ def play(board)
   end
   if winner(board)
     winning_player = winner(board)
-    puts "Congratulations #{}!"
+    puts "Congratulations #{winning_player}!"
 end
