@@ -102,4 +102,5 @@ def play(board)
   end
   if won?
     puts Congratulations, !current_player(board)
+  end
 end
